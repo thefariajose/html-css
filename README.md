@@ -3,4 +3,4 @@
 
  Meu primeiro repositório, estou aprendendo como usar
 
- <a href="https://thefariajose.github.io/html-css/desafios/d010/" target="_blank">Veja meu primeiro Site</a>
+ <a href="https://thefariajose.github.io/projeto-android/" target="_blank">Meu primeiro mini-projeto</a>
