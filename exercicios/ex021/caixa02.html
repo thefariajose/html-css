@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0px;
+        }
+
+       header{
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(81, 57, 215);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.633);
+        border: 2px;
+        border-radius: 10px;
+       }
+
+       nav{
+        background-color: rgb(153, 138, 240);
+        padding: 3px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       }
+
+       nav > a{
+        text-decoration: none;
+        color: red;
+        margin: 0px 10px;
+        font-weight: bold;
+       }
+
+       nav > a:hover{
+            text-decoration: underline;
+       }
+
+       main{
+        background-color: rgb(63, 160, 245);
+        margin: 10px;
+        padding: 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+        border: 2px;
+        border-style: solid;
+        border-radius: 10px;
+       }
+
+       section{
+        margin: 10px;
+        background-color: aqua;
+        padding: 3px;
+       }
+
+       h2#futebol{
+        margin: 0px;
+       }
+
+       h2#noticia{
+        margin: 0px;
+       }
+
+       article > p{
+        text-align: justify;
+       }
+
+       article > aside{
+        background: rgb(73, 51, 198);
+        text-align: right;
+       }
+
+       footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin: 0px;
+       }
+
+       footer > p{
+        margin: 0px;
+       }
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+        <a href="topo"></a>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2 id="futebol">Futebol</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, numquam quo aspernatur minima praesentium nostrum saepe, doloribus sit ab nemo iure tempore alias ut quibusdam obcaecati dolorem repellendus non commodi!</p>
+                <aside>
+                    <p>Apurado por JL DENOVO</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 id="noticia">Notícia bla</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius amet tempore minus laudantium voluptas beatae eligendi eum nam alias labore, ea facere libero quam quod aspernatur. Quae quo culpa magni. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae reiciendis, itaque sapiente architecto eligendi commodi atque illum, culpa quos eaque impedit ea, nobis fugit cum placeat distinctio minima vel nostrum?</p>
+                <aside>Escrito por JL</aside>
+            </article>
+        </section>
+
+        
+    </main>
+    <footer>
+        <p id="rodape">Desenvolvido por JL o PINTA</p>
+        <a href="#top">Voltar ao topo</a>
+    </footer>
+</body>
+</html>
