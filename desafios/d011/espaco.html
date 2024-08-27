@@ -6,20 +6,34 @@
     <title>Espaço</title>
     <style>
         body{
-            background-image: url('imagens/espaco.jpg'); /* Caminho da sua imagem */
-            background-size: cover; /* Faz com que a imagem cubra toda a tela */
-            background-repeat: no-repeat; /* Impede que a imagem se repita */
-            background-position: center; /* Centraliza a imagem na tela */
-            height: 100vh; /* Garante que a altura da tela seja 100% da viewport */
+            background-image: url('imagens/espaco.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
-        div{
-            margin: auto;
+        div#container{
+            position: relative;
         }
-        
+
+        div#astronauta{
+           
+            height: 70vh;
+            width: 70vh;
+            background: url('imagens/astronauta.png') center center no-repeat ;
+            background-size: contain;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
     </style>
 </head>
 <body>
-    <div><img src="imagens/astronauta.png" alt=""></div>
+    <div id="astronauta">
+        
+    </div>
 </body>
 </html>
