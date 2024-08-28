@@ -34,11 +34,19 @@ header p a{
 }
 
 div{
-    height: 400px;
+    height: 500px;
+
 }
 
 div p{
     width: 50%;
+}
+
+div#t2 {
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
