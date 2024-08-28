@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes dentro do mesmo site</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            overflow-x: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>Veja aqui a outra página desse mesmo site</h1>
+    <div>
+        <iframe src="outra.html" frameborder="1" height="500px" width="700px">
+            seu navegador nao suporta iframes
+        </iframe>
+    </div>
+    <h1>Iframe com conteúdo feito nessa mesma página</h1>
+    <iframe srcdoc="<h2>TESTE DE IFRAME FEITO NA MESMA PÁGINA</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quisquam voluptas. Culpa qui neque, odio excepturi dolorum mollitia reiciendis, ab vel cumque dignissimos veniam saepe illum voluptas possimus, optio delectus.</p>" frameborder="0">
+        seu navegador nao é compativel com iframe
+    </iframe>
+</body>
+</html>
