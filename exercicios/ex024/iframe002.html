@@ -12,6 +12,14 @@
         div{
             overflow-x: scroll;
         }
+
+        iframe{
+            width: 700px;
+            height: 500px;
+            border: 5px solid black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px #00000032;
+        }
     </style>
 </head>
 <body>
@@ -22,8 +30,10 @@
         </iframe>
     </div>
     <h1>Iframe com conteúdo feito nessa mesma página</h1>
-    <iframe srcdoc="<h2>TESTE DE IFRAME FEITO NA MESMA PÁGINA</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quisquam voluptas. Culpa qui neque, odio excepturi dolorum mollitia reiciendis, ab vel cumque dignissimos veniam saepe illum voluptas possimus, optio delectus.</p>" frameborder="0">
-        seu navegador nao é compativel com iframe
-    </iframe>
+    <div>
+        <iframe srcdoc="<h2>TESTE DE IFRAME FEITO NA MESMA PÁGINA</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quisquam voluptas. Culpa qui neque, odio excepturi dolorum mollitia reiciendis, ab vel cumque dignissimos veniam saepe illum voluptas possimus, optio delectus.</p>" frameborder="0">
+            seu navegador nao é compativel com iframe
+        </iframe>
+    </div>
 </body>
 </html>
